@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+
+/*{
+ padding:0;
+ margin:0;
+}
+*/
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.nombreempresa{
+    font-family: 'Shadows Into Light', cursive;
+
+    font-weight: 200;
+    padding-right: 5px;
+    
+}
+#informacion{
+    display: flex;
+    justify-content: center;
+
+}
+header{
+
+    display:flex;
+    min-height: 70px;
+    background-color:#f6d992;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+        height: 85px;
+        margin-right: 20px;
+
+}
+
+nav a{
+    font-weight: 200;
+    padding-right: 5px;
+}
+nav a:hover{
+    color: white;
+}
+/* Imagenes inicio */
+.container {
+    /* width: 100vw; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    /* grid-template-columns: 20vw 20vw 20vw; */
+    /* grid-template-columns: repeat(3,20vw); */
+    grid-template-rows: 300px 300px;
+    grid-gap: 1rem;
+}
+
+main {
+   /* background-color: #3b404e;*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    border: 6px solid #fbdca1;
+}
+
+.img1 {
+
+    background-image: url("https://i.pinimg.com/564x/d9/1d/62/d91d62f5ed62aa159da15159be9e8309.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+
+    background-image: url("https://i.pinimg.com/564x/d3/83/ab/d383ab515157551a0a8d14fd13b0ff9d.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+
+    background-image: url("https://i.pinimg.com/564x/33/92/cc/3392ccd04b2ba9fd4d5d9dd4fa1d19f1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img4 {
+
+    background-image: url("https://i.pinimg.com/564x/0d/83/c9/0d83c974af8273247f73bfb1b21c3494.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img5 {
+
+    background-image: url("https://i.pinimg.com/564x/2f/09/8b/2f098b9ba63c95c3f74a7418f1b14ee2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img6 {
+
+    background-image: url("https://i.pinimg.com/564x/34/8c/b2/348cb2d8379323b2b5ebdb8ac93e888e.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.img1:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;}
+.img2:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;}
+.img3:hover { 
+    animation: myAnim 2s ease 0s 1 normal forwards;}
+.img4:hover { 
+    animation: myAnim 2s ease 0s 1 normal forwards;}
+.img5:hover { 
+    animation: myAnim 2s ease 0s 1 normal forwards;}
+.img6:hover { 
+    animation: myAnim 2s ease 0s 1 normal forwards;}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+/* Imagenes Servicios */
+
+    .containerServicios {
+        /* width: 100vw; */
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px;
+        grid-gap: 1rem;
+    }
+    main {
+        /* background-color: #3b404e;*/
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .imgs {
+         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+         border-radius: 4px;
+         border: 6px solid #fbdca1;
+     }
+     
+     .imgs1 {
+     
+         background-image: url("https://f.fcdn.app/imgs/155c91/hortensia.com.uy/hor/dddf/original/blog/76/760x0/pies-manos.jpg");
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .imgs2 {
+     
+         background-image: url("https://www.spazio26.com/wp-content/uploads/2019/02/Podolog%C3%ADa.jpg");
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .imgs3 {
+     
+         background-image: url("https://vanitasespai.es/wp-content/uploads/2015/02/extension-pesta%C3%B1as.jpg");
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .imgs4 {
+     
+         background-image: url("https://cdn2.actitudfem.com/media/files/styles/big_img/public/images/2018/10/gel-para-cejas-pros-y-contras-de-usarlo.jpg");
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .imgs5 {
+     
+         background-image: url("https://aprende.com/wp-content/uploads/2022/01/depilacion-con-cera.jpg");
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .imgs6 {
+     
+         background-image: url("../img/uñas.jpg");
+         background-position: center;
+         background-size: cover;}
+
+            
+     
+     .imgs1:hover {
+         animation: myAnim 2s ease 0s 1 normal forwards;}
+     .imgs2:hover {
+         animation: myAnim 2s ease 0s 1 normal forwards;}
+     .imgs3:hover { 
+         animation: myAnim 2s ease 0s 1 normal forwards;}
+     .imgs4:hover { 
+         animation: myAnim 2s ease 0s 1 normal forwards;}
+     .imgs5:hover { 
+         animation: myAnim 2s ease 0s 1 normal forwards;}
+     .imgs6:hover { 
+         animation: myAnim 2s ease 0s 1 normal forwards;}
+     
+     @keyframes myAnim {
+     
+         0%,
+         100% {
+             transform: translateX(0%);
+             transform-origin: 50% 50%;
+         }
+     
+         15% {
+             transform: translateX(-30px) rotate(-6deg);
+         }
+     
+         30% {
+             transform: translateX(15px) rotate(6deg);
+         }
+     
+         45% {
+             transform: translateX(-15px) rotate(-3.6deg);
+         }
+     
+         60% {
+             transform: translateX(9px) rotate(2.4deg);
+         }
+     
+         75% {
+             transform: translateX(-6px) rotate(-1.2deg);
+         }
+     
+     }
+    
+footer{
+        display: grid;
+        grid-template-rows: 1.5fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: black;
+        color:#f6d992;
+    }
+    
+    .docinteres,
+    .linksFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: start;
+    }
+    
+    .docinteres a,
+    .linksFooter a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    .redes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .copyright {
+        justify-self: start;
+        align-self: end;
+    }
+    
+    .logoFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logoFooter img {
+        width: 10px;
+    
+    }
+    
+    .redes img {
+        width: 50px;
+    }
+
+
+#informacionServicio{
+    color: rgba(0, 0, 0, 0.764);
+    padding: 7px;
+
+}
+img{    
+
+    border-radius: 1cm;
+    border: 10px  double #2c2512 ;
+}
+

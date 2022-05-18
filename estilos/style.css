@@ -54,7 +54,7 @@ nav a:hover{
     color: white;
 }
 /* Imagenes inicio */
-.container {
+.container { 
     /* width: 100vw; */
     display: grid;
     grid-template-columns: 300px 300px 300px;

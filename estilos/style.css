@@ -65,7 +65,7 @@ nav a:hover{
 }
 
 main {
-   /* background-color: #3b404e;*/
+    background-color: #ffe4b2;
     height: 100vh;
     display: flex;
     justify-content: center;
